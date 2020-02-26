@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Steamy</string>
+
+
+    <string name="logIn"> "Giriş yap" </string>
+    <string name="howToGetSteamId"> "Steam ID'nizi bulmak için bu adımları takip edin. (ya da doğrudan '76561198344258573' idsini kullanın)"</string>  <!--TODO fill-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainActivityFriends">Arkadaşlar</string>
+    <string name="mainActivityGames">Oyunlar</string>
+    <string name="friendActivityProfile">Profil</string>
+    <string name="friendActivityGames">Oyunlar</string>
+    <string name="friendActivityFriends">Arkadaşlar</string>
+    <string name="visible">Görünür</string>
+    <string name="follow">Takip Et</string>
+    <string name="unfollow">Takibi Bırak</string>
+    <string name="peopleWhoHaveThisGame">""</string>
+    <string name="privateUserName">"Bu kullanıcı arkadaşlarını başkasıyla paylaşmıyor"</string>
+    <string name="privateGameName">"Bu kullanıcı oyunlarını başkalarıyla paylaşmıyor"</string>
+    <string name="emptyError">"Steam ID boş olamaz"</string>
+    <string name="digitError">"Steam ID rakamlardan oluşmalıdır"</string>
+    <string name="oldUserId">Eski ID ile bağlanın</string>
+    <string name="newUserId">Yeni bir steam ID girin</string>
+    <string name="noSavedUser">Kaydedilmiş bir steam ID\'si yok</string>
+
+</resources>

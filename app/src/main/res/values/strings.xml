@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Steamy</string>
+
+
+    <string name="logIn"> "Log in" </string>
+    <string name="howToGetSteamId"> "To obtain your steam id you may follow that. (or directly use 76561198344258573)"</string>  <!--TODO fill-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainActivityFriends">Friends</string>
+    <string name="mainActivityGames">Games</string>
+    <string name="friendActivityProfile">Profile</string>
+    <string name="friendActivityGames">Games</string>
+    <string name="friendActivityFriends">Friends</string>
+    <string name="visible">Visible</string>
+    <string name="follow">follow</string>
+    <string name="unfollow">unfollow</string>
+    <string name="peopleWhoHaveThisGame">""</string>
+    <string name="privateUserName">"This user does not share their friends"</string>
+    <string name="privateGameName">"This user does not share their games"</string>
+    <string name="emptyError">"User id cannot be empty"</string>
+    <string name="digitError">"User id must be made of digits"</string>
+    <string name="oldUserId">Use old user id</string>
+    <string name="newUserId">Enter new user id</string>
+    <string name="noSavedUser">There is no saved id</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior"
+    tools:context=".GameNewsActivity"
+    tools:showIn="@layout/activity_game_news">
+
+    <LinearLayout
+        android:id="@+id/gnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/gnLogo"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+
+    <Button
+        android:id="@+id/gnFollow"
+        android:hint="Follow/Unfollow"
+        android:textColorHint="#0A0E4A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"/>
+
+    <TextView
+        android:id="@+id/gnGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of the Game"
+        android:layout_margin="10dp"
+        android:textColor="#0A0E4A"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/gnFriendList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friends Who Follow This Game"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#0A0E4A"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

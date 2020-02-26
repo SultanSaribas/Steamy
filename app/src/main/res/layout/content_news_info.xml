@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior"
+    tools:context=".NewsInfoActivity"
+    tools:showIn="@layout/activity_news_info">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/niTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title of the News"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:textColor="#0A0E4A"/>
+
+    <TextView
+        android:id="@+id/niContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Context of the News"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="#0A0E4A" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
