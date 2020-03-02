@@ -1,103 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#FFFFFF">
+    android:orientation="vertical">
 
-
-    <TextView
-        android:id="@+id/idGetText"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="132dp"
-        android:background="@drawable/button_background"
-        android:gravity="center"
-        android:padding="36dp"
-        android:shadowColor="#0A0E4A"
-        android:text="@string/howToGetSteamId"
-        android:textColor="#0A0E4A"
-        android:visibility="invisible"
-        android:clickable="false"
-        app:layout_constraintBottom_toTopOf="@+id/isUserId"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/isUserId"
-        android:layout_width="124dp"
-        android:layout_height="53dp"
-        android:gravity="center"
-        android:hint="Steam ID"
-        android:textStyle="italic"
-        android:shadowColor="#0A0E4A"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/isUserIdAccept"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/button_background"
-        android:shadowColor="#0A0E4A"
-        android:text="@string/logIn"
-        android:textColor="#0A0E4A"
-        android:textStyle="italic|normal"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/isUserId" />
+        <Button
+            android:id="@+id/faProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/friendActivityProfile"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:textColor="#0A0E4A"
+            android:background="@drawable/button_background"/>
 
-    <Button
-        android:background="@drawable/button_background"
-        android:layout_height="80dp"
-        android:layout_width="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/oldUserId"
-        android:layout_marginBottom="500dp"
-        android:id="@+id/oldId"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="200dp"
-        app:layout_constraintVertical_bias="0.913"
-        app:layout_constraintHorizontal_bias="0.0"
-        android:layout_marginEnd="100dp"
-        android:layout_marginStart="100dp"/>
+        <Button
+            android:id="@+id/faGames"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/friendActivityGames"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:textColor="#0A0E4A"
+            android:background="@drawable/button_background"/>
 
-    <Button
-        android:background="@drawable/button_background"
-        android:layout_height="80dp"
-        android:layout_width="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/newUserId"
-        android:layout_marginBottom="600dp"
-        android:id="@+id/newId"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/oldId"
-        android:layout_marginTop="10dp"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintHorizontal_bias="0.0"
-        android:layout_marginEnd="100dp"
-        android:layout_marginStart="100dp"/>
+        <Button
+            android:id="@+id/faFriends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/friendActivityFriends"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:textColor="#0A0E4A"
+            android:background="@drawable/button_background"/>
 
-    <ImageView
-        android:id="@+id/waitingImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="false"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/newId"
-        app:layout_constraintStart_toEndOf="@+id/oldId"
-        app:layout_constraintTop_toBottomOf="@+id/isUserIdAccept"
-        app:srcCompat="@drawable/wait" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/friendActivityContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBarLayout">
+
+    </fragment>
+    -->
+
+
+</LinearLayout>
