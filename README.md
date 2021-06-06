@@ -2,7 +2,7 @@
 
 <br>
 
-**MeetMe is a mobile application that provides an environment for people to talk about their common interests, thoughts and to share their feelings.** 
+**Steamy is a mobile application that takes data from Steam API and provides useers their friend list, their game list, the game news, and their friends profile.** 
 
 - When you open the application, first login screen welocmes you.
 - You need to enter your steam ID to use the application.
