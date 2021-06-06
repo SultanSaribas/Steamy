@@ -1,6 +1,5 @@
-### MEETME 
+### STEAMY 
 
-<br>
 <br>
 
 **MeetMe is a mobile application that provides an environment for people to talk about their common interests, thoughts and to share their feelings.** 
@@ -9,13 +8,11 @@
 - You need to enter your steam ID to use the application.
 
 <br>
-<br>
 
 **REGISTIRATION  AND LOGIN**
 
 <img width="200px" src='Screenshots/1.jpg'>   <img width="200px" src='Screenshots/2.jpg'>
 
-<br>
 <br>
 
 
@@ -25,20 +22,17 @@
 <img width="200px" src='Screenshots/3.png'>  
 
 <br>
-<br>
 
 **USER PROFILE**
 
 <img width="200px" src='Screenshots/5.jpg'> 
 
 <br>
-<br>
 
 **USER'S FRIENDS**
 
 <img width="200px" src='Screenshots/4.jpg'>
 
-<br>
 <br>
 
 **FRIEND'S PROFILE/FRIENDS**
@@ -48,13 +42,11 @@
 <img width="200px" src='Screenshots/6.jpg'> 
 
 <br>
-<br>
 
 **FRIEND'S PROFILE/GAMES**
 
 <img width="200px" src='Screenshots/7.png'> 
 
-<br>
 <br>
 
 **GAME NEWS**
